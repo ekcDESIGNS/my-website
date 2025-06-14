@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | Freelance Designer & Content Creator</title>
+  <style>
+    :root {
+      --bg: #f9f9f9;
+      --text: #1a1a1a;
+      --accent: #4b6cb7;
+      --highlight: #182848;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, var(--accent), var(--highlight));
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+      font-style: italic;
+    }
+
+    section {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .section-title {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid var(--accent);
+      display: inline-block;
+    }
+
+    .about {
+      font-size: 1.1rem;
+    }
+
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+    }
+
+    .portfolio-item {
+      background: white;
+      border: 1px solid #ddd;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+    }
+
+    .portfolio-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .portfolio-item img {
+      max-width: 100%;
+      border-radius: 4px;
+    }
+
+    .portfolio-item h3 {
+      margin-top: 0.8rem;
+      font-size: 1.1rem;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    .contact a {
+      color: var(--accent);
+      margin: 0 0.5rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #eee;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <p>Freelance Designer & Content Creator</p>
+  </header>
+
+  <section>
+    <h2 class="section-title">About Me</h2>
+    <p class="about">
+      I'm a creative professional specializing in design and content creation. I help brands and individuals communicate their message visually and effectively. Whether it's visual branding, web content, or social media campaigns, I bring thoughtful design and engaging content together to make an impact.
+    </p>
+  </section>
+
+  <section>
+    <h2 class="section-title">Portfolio</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <img src="https://via.placeholder.com/400x250?text=Project+1" alt="Project 1">
+        <h3>Project Title 1</h3>
+        <p>A short description of what this project is and what you did.</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://via.placeholder.com/400x250?text=Project+2" alt="Project 2">
+        <h3>Project Title 2</h3>
+        <p>Brief description here. Can include client name or platform used.</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://via.placeholder.com/400x250?text=Project+3" alt="Project 3">
+        <h3>Project Title 3</h3>
+        <p>Details about your creative process or outcomes here.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2 class="section-title">Let's Connect</h2>
+    <p>Have a project or idea in mind? Reach out!</p>
+    <p>
+      <a href="mailto:your.email@example.com">Email</a> |
+      <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a> |
+      <a href="https://www.instagram.com/yourprofile" target="_blank">Instagram</a>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Your Name. All rights reserved.
+  </footer>
+</body>
+</html>
